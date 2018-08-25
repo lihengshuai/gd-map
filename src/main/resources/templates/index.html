@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <script type="text/javascript"
+          th:src="@{https://webapi.amap.com/maps?v=1.4.8&amp;key=aa0cd0e5c381de57f8d1a6cc408cfb54}"></script>
+  <script type="text/javascript" th:src="@{http://pv.sohu.com/cityjson?ie=utf-8}"></script>
+
+  <meta charset="UTF-8"/>
+  <title>地图</title>
+
+  <script th:src="@{/js/jquery.min.js}"></script>
+  <link th:href="@{/css/style.css}" rel="stylesheet"/>
+
+</head>
+<body>
+
+
+<div id="container"></div>
+<script th:src="@{/js/map.js}"></script>
+
+</body>
+</html>
