@@ -38,3 +38,7 @@ logs/
 ######
 /bin/
 classes/
+
+####
+*.yml
+/generatorConfig.xml
